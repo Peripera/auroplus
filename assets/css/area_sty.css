@@ -1,0 +1,43 @@
+
+* {      
+
+body {
+font-family: "CocoSharpExtraLight", Arial, sans-serif;
+text-align: center;
+background-color: #ddd; /* Fondo general */
+color: #A17BA3; /* Texto principal */
+padding: 20px;
+}
+                h1 {
+                    font-family: "CocoSharpExtraBold", Arial, sans-serif;
+                    color: #f18b40; /* Título principal */
+                }
+                p {
+                    font-family: "CocoSharpExtraLight", Arial, sans-serif;
+                    color: #A17BA3; /* Color de texto del párrafo */
+                }
+                .areas {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 20px;
+                    margin-top: 20px;
+                }
+        .area {
+            font-family: "CocoSharpBold", Arial, sans-serif;
+            padding: 15px 30px;
+            border: 2px solid #f27950; /* Borde */
+            border-radius: 8px;
+            background-color: #fff; /* Fondo blanco */
+            text-decoration: none;
+            color: #f18b40; /* Texto en los botones */
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+        .area:hover {
+            background-color: #f27950; /* Fondo al pasar el mouse */
+            color: #fff; /* Texto blanco en hover */
+            transform: scale(1.05); /* Efecto de zoom */
+        }
+    }

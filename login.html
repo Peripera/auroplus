@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuroLuxe Login</title>
+    <link rel="stylesheet" href="assets/css/estyle.css">
+</head>
+
+<body>
+    <!-- Login Section -->
+    <section id="login">
+        <div class="container">
+            <img src="assets/images/GenericAvatar.png" alt="avatar" class="avatar">
+            <h2>Sign In</h2>
+           <!-- funcion cambiada -->
+                 <form id="loginForm" method="POST" action="php/log_data.php">
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <input type="password" name="password" placeholder="Enter password" required>
+                    <button type="submit">Next</button>
+                </form>
+                
+            </form>
+            <p>New to AuroLuxe? <a href="signup.html" onclick="navigateTo('signup')">SIGN UP!</a></p>
+        </div>
+    </section>
+
+    <script src="assets/js/script_prot.js"></script>
+</body>
+</html>

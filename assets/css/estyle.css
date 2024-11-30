@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: CocoSharp-Trial-ExtraLight, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f18b40;
+  }
+  
+  .logo {
+    width: 250px;
+    position: absolute;
+    top:-20%;
+}
+ /*.hidden {
+    display: none;
+  }*/
+ 
+  #login .container, #signup .container {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #A17BA3;
+
+  }
+
+
+
+
+  #login .container{
+    background-color: #A17BA3;
+  }
+
+#login .avatar, #signup .avatar {
+  position: absolute;
+  top: 2%; 
+}
+select {
+    width: 100px;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid #EE6739;
+    border-radius: 3px;
+    background-color: #EE6739;
+    font-size: 20 px;
+    color: #F5F5F5;
+    appearance: none; /* Elimina el estilo por defecto del navegador */
+}
+
+
+select option {
+    color: #000000; /* Color del texto en las opciones */
+    background-color: #fff; /* Fondo de las opciones */
+}
+  h1, h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-top:100px;
+  }
+  
+  
+  button {
+    background-color: #EE6739;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #f27950;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
